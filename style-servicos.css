@@ -86,3 +86,36 @@ body{
     background: #55caee;
     border: 2px solid #fff;
 }
+@media (max-width:900px){
+    .box h4{
+        transform: translate(80px);
+    }
+    .box a{
+        transform: translate(55px, 100px);
+    } 
+}
+@media (max-width:800px){
+    .box h4{
+        transform: translate(60px);
+    }
+    .box a{
+        transform: translate(35px, 100px);
+    } 
+}
+@media (max-width:700px){
+    .box h4{
+        transform: translate(50px);
+    }
+    .box a{
+        transform: translate(15px, 100px);
+    }
+}
+@media (max-width:600px){
+    .box h4{
+        transform: translate(30px);
+    }
+    .box a{
+        width: 100px;
+        transform: translate(30px, 100px);
+    }
+}
