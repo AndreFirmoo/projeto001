@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: rgb(30, 8, 88);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.login{
+    display: block;
+    color: #fafafa;
+    background: #3a3a3a;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.login h2{
+    font-size: 30px;
+    color: #fff;
+}
+.login .entra{
+    background: #464646;
+    border: none;
+    display: block;
+    width: 250px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;   
+    color: #fafafa;
+    height: 30px; 
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.login .entra:hover{
+    background: #504e4e;
+}
+.login .senha{
+    background: #464646;
+    border: none;
+    display: block;
+    width: 250px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;   
+    color: #fafafa;
+    height: 30px; 
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.login .senha:hover{
+    background: #504e4e;
+}
+.login .btn{
+    display: block;
+    cursor: pointer;
+    border: none;
+    color: #55caee;
+    width: 150px;
+    height: 40px;
+    font-weight: 0;
+    border-radius: 5px;
+    margin-left: 70px;
+    border: 3px solid #55caee;
+    font-weight: bold;
+}
+.login .btn:hover{
+    border: 3px solid #fff;
+    color: #fff;
+    background: #1a93b8;
+}
+.login p{
+    margin-top: 70px;
+    font-size: 14px;
+}
+.login a{
+    color: cyan;
+}
