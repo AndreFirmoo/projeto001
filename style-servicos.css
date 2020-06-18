@@ -119,3 +119,12 @@ body{
         transform: translate(30px, 100px);
     }
 }
+@media (max-width:400px){
+    .container .box h4{
+        transform: translateX(0.4px);
+    }
+    .container .box a{
+        width: 80px;
+        transform: translate(5px, 100px);
+    }
+}
